@@ -23,6 +23,7 @@ export default tseslint.config(
             '@stylistic/eol-last': ['warn', 'always'],
             '@stylistic/object-curly-spacing': ['warn', 'always'],
             '@stylistic/arrow-parens': ['warn', 'always'],
+            '@stylistic/brace-style': ['warn', '1tbs'],
             '@stylistic/member-delimiter-style': ['error', {
                 multiline: {
                     delimiter: 'semi',
